@@ -1,0 +1,31 @@
+/* Reset some default styles for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color with a potato-like pattern */
+body {
+    background-color: #f6f2e7;
+    background-image: url('potato-pattern.jpg'); /* You can replace 'potato-pattern.jpg' with your actual image file */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    font-size: 36px;
+    color: #8b572a; /* Brown color for potato-like appearance */
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 18px;
+    color: #5e3f10; /* Darker brown color for text */
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
